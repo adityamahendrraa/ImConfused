@@ -1,4 +1,60 @@
+
+
+.popup{
+  background-color: #ffffff;
+  width: 420px;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  font-family: "Poppins",sans-serif;
+  display: none; 
+  text-align: center;
+
+}
+.popup button{
+  display: block;
+  margin:  0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  color: #ffffff;
+  background: #03549a;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+.popup h2{
+margin-top: -20px;
+color: #000000;
+}
+.popup p1{
+  font-size: 14px;
+  color: #000000;
+  text-align: justify;
+  margin: 20px 0;
+  line-height: 25px;
+}
+a1{
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #0f72e5;
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
 body {
+  
 
     margin: 10px auto;
   
@@ -128,62 +184,4 @@ body {
   
   }
 
-  #overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-     
-    height: 100%;
-    background-color: #000;
-    filter:alpha(opacity=70);
-    -moz-opacity:0.7;
-    -khtml-opacity: 0.7;
-    opacity: 0.7;
-    z-index: 100;
-    display: none;
-    }
-    .cnt223 a{
-    text-decoration: none;
-    }
-    .popup-onload{
-    width: 100%;
-    margin: 0 auto;
-    display: none;
-    position: fixed;
-    z-index: 101;
-    }
-    .cnt223{
-    min-width: 600px;
-    width: 600px;
-    min-height: 150px;
-    margin: 100px auto;
-    background: #f3f3f3;
-    position: relative;
-    z-index: 103;
-    padding: 15px 35px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px #000;
-    }
-    .cnt223 p{
-    clear: both;
-        color: #555555;
-        /* text-align: justify; */
-        font-size: 20px;
-        font-family: sans-serif;
-    }
-    .cnt223 p a{
-    color: #d91900;
-    font-weight: bold;
-    }
-    .cnt223 .x{
-    float: right;
-    height: 35px;
-    left: 22px;
-    position: relative;
-    top: -25px;
-    width: 34px;
-    }
-    .cnt223 .x:hover{
-    cursor: pointer;
-    }
+  
